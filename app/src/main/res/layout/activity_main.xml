@@ -53,39 +53,37 @@
             <ImageView
                 android:layout_width="100dp"
                 android:layout_height="100dp"
-                android:src="@android:drawable/ic_menu_gallery"
+                android:src="@drawable/logo"
+                android:layout_margin="10dp"
                 android:layout_weight="1"/>
 
         </LinearLayout>
 
         <Button
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="100dp"
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
-            android:text="Compétences"
-            android:textStyle="italic"
             android:layout_weight="1"
             android:gravity="center"
+            android:background="@drawable/compet"
             android:id="@+id/button_comp"/>
 
         <Button
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="100dp"
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
-            android:text="Formations"
-            android:textStyle="italic"
             android:layout_weight="1"
             android:gravity="center"
+            android:background="@drawable/formation"
             android:id="@+id/button_form"/>
 
         <Button
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="100dp"
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
-            android:text="Expériences"
-            android:textStyle="italic"
             android:layout_weight="1"
             android:gravity="center"
+            android:background="@drawable/experience"
             android:id="@+id/button_exp"/>
 
     </LinearLayout>
